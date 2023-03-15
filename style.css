@@ -1,37 +1,27 @@
-body {
-      font-family:  sans-serif;
-      line-height: 1.5em;
-      background-color: white;  
-    }
-    .main {
-      width: 50%;
-      margin: 3em auto;
-      padding: 1em;
-      /* border:1px solid #CCC; */
-    }
+#main{
+	width:50vw;
+	height:100vh;
+	background-color: black;
+}
 
-    h1 {
-      margin-top: 0;
-      font-size: 3.5em;
-      line-height: 1em;
-    }
+.blue{
+	width:50%;
+	hight:50%;
+	background-color: blue;
+}
+#red{
+	width:50%;
+	height:50%;
+	background-color: red;
+}
 
+#main div.blue p{
+	color:white;
+	font-family: sans-serif;
+	font-size: 24pt;
+}
 
-    a {
-      font-weight: bold;
-      color: #0000ff;
-      text-decoration: none;
-    }
-
-    a:hover {
-      background-color: #0000ff;
-    }
-
-    ul {
-      padding-left: 18px;
-      list-style: none;
-    }
-
-    ul li {
-      color: #CCC;
-    }
+div.blue-2 p{
+	color:gray;
+	font-size: 48pt;
+}
