@@ -1,31 +1,16 @@
-.container{
-	background-color: pink;
-	display:flex;
-	width:500px;
-	flex-direction: row;
-	flex-wrap: wrap;
+#main{
+	width:50vw;
+	height:100vh;
+	background-color: black;
 }
 
-.item-1{
-	background-color: red;
-	width:100px;
-	flex:0;
-}
-
-.item-2{
-	background-color: green;
-	width:100px;
-	flex:2;
-}
-
-.item-3{
+.blue{
+	width:50%;
+	hight:50%;
 	background-color: blue;
-	width:100px;
-	flex:1;
 }
-
-.item-4{
-	background-color: orange;
-	width:100px;
-	flex:1;
+#red{
+	width:50%;
+	height:50%;
+	background-color: red;
 }
